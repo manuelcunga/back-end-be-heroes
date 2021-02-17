@@ -1,0 +1,23 @@
+{
+    "name": "back-end",
+    "version": "1.0.0",
+    "description": "api back end be the hero",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "knex": "^0.21.17",
+        "pg": "^8.5.1",
+        "postgres": "^1.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6",
+        "sucrase": "^3.17.1"
+    }
+}
