@@ -31,24 +31,20 @@ obs.: Para o funcionamento Do projecto deves configurar seguindo os seguintes pa
 #Project setup
 
 
---yarn install
+--yarn or npm install
 
 #Compiles and hot-reloads for development
 
 
---yarn dev
+--yarn dev or npm dev
 
 #Compiles and minifies for production
 
 
 ---yarn build
 
-#Lints and fixes files
 
 
---yarn lint
-
-para mais info: visite o site do vue js  **[Vue js](https://br.vuejs.org/v2/guide/)**
 <p align= center>
 🐱‍👤 Desenvolvido por <strong>Lázaro Inácio Manuel</strong>   -----   Me adicione no <a href="https://www.linkedin.com/in/l%C3%A1zaro-in%C3%A1cio-manuel-9264971b3/"target="_blank">Linkedin</a>
 </p>
