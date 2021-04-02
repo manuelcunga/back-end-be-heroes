@@ -7,6 +7,7 @@
 module.exports = {
 
     development: {
+
         client: 'pg',
         version: '7.2',
         connection: {
@@ -39,19 +40,19 @@ module.exports = {
     },
 
     production: {
-        client: 'postgresql',
+        client: 'pg',
+        version: '7.2',
         connection: {
-            database: 'my_db',
-            user: 'username',
-            password: 'password'
-        },
-        pool: {
-            min: 2,
-            max: 10
+            // filename: './dev.sqlite3'
+            host: '127.0.0.1',
+            user: 'postgres',
+            password: 'docker',
+            database: 'Heroes'
         },
         migrations: {
-            tableName: 'knex_migrations'
-        }
+            directory: './src/database/migrations'
+        },
+        useNullAsDefault: true,
     }
 
 };
